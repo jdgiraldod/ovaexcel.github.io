@@ -1,0 +1,65 @@
+/*
+font-family: 'Asap', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+body {
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+header {
+	background: #ffffff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 120px;
+}
+header .logo {
+	float: left;
+	margin-right: 30px;
+}
+header .excel {
+	float: right;
+}
+header h1 {
+	font-family: 'Asap', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	margin-top: 30px;
+	color: #006680;
+}
+header h2 {
+	margin-top: 0;
+	color: #FF6900;
+}
+nav {
+	background: #006680;
+	padding: 10px;
+	height: 40px;
+}
+nav ul {
+	margin: auto;
+}
+nav ul li {
+	float: left;
+	list-style-type: none;
+	padding: 10px 20px;
+	background: #FF6900;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+nav ul li:hover {
+	background: #F2B80D;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.clear {
+	clear: left;
+}
