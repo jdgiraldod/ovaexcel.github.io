@@ -1,16 +1,16 @@
-/*
+/*reglas para las fuentes de google fonts
 font-family: 'Asap', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 */
 
 body {
-	background-image: url(../img/bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-family: 'Source Sans Pro', sans-serif;
+	background-image: url(../img/bg.jpg);/* ../sale, nom/entra url() ruta de la imagen */
+	background-repeat: no-repeat;/* la imagen de fondo no se repite*/
+	background-size: cover;/*ocupa todo el espacio */
+	font-family: 'Source Sans Pro', sans-serif; /* fuente de la letra */
 }
 header {
-	background: #ffffff;
+	background: white; /*diferentes colores busco codigo */
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 30px;
@@ -18,22 +18,24 @@ header {
 	height: 120px;
 }
 header .logo {
-	float: left;
-	margin-right: 30px;
+	float: left; /* alinear */
+	margin-right: 30px; /* margen para separar objeto*/
 }
 header .excel {
 	float: right;
 }
 header h1 {
 	font-family: 'Asap', sans-serif;
-	text-transform: uppercase;
-	margin-bottom: 0;
-	margin-top: 30px;
+	text-transform: uppercase; /* uppercase modfica el texto a mayuscula*/
+	margin-bottom: 0; /*elimina margen inferior*/
+	margin-top: 30px; /*agrega espacio arriba*/
 	color: #006680;
+	text-align: center;
 }
 header h2 {
 	margin-top: 0;
 	color: #FF6900;
+	text-align: center;
 }
 nav {
 	background: #006680;
@@ -41,25 +43,26 @@ nav {
 	height: 40px;
 }
 nav ul {
-	margin: auto;
+	margin: auto;/*elimina margenes*/
 }
 nav ul li {
 	float: left;
-	list-style-type: none;
+	list-style-type: none;/*elimina el punto de las listas*/
 	padding: 10px 20px;
 	background: #FF6900;
-	border-radius: 10px;
-	margin-left: 5px;
+	border-radius: 10px;/*redondeado en las esquinas*/
+	margin-left: 5px;/*espacio entre boton*/
 	margin-right: 5px;
 }
-nav ul li:hover {
+nav ul li:hover {/*cambia el estilo cuando el mouse esta encima*/
 	background: #F2B80D;
 }
 nav ul li a {
 	color: white;
-	text-decoration: none;
+	text-decoration: none;/*elimina el subrayado*/
 }
-
-.clear {
-	clear: left;
+footer {
+	text-align: center;
+	color:#006680;
+	margin: 50px 0;
 }

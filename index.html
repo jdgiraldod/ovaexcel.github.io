@@ -11,35 +11,50 @@
 	<meta name="keywords" content="excel, tablas, UNAD, Universidad Nacional, aprendizaje">
 
 	<title>Objeto virtual de aprendizaje | UNAD</title>
-	<!-- Hojas de estilos -->
+	<!-- Hojas de estilos, normalize ahorra codigos css para diferentes exploradores -->
 	<link rel="stylesheet" href="css/normalize.css" media="screen">
+	<!-- Fuente de google font para tipos de letras -->
 	<link href="https://fonts.googleapis.com/css?family=Asap:400,700|Source+Sans+Pro:300,300i,400,400i,700,700i" rel="stylesheet">
+	<!-- estilo de mi pagina -->
 	<link rel="stylesheet" href="css/estilos.css" media="screen">
-	<!-- Scripts -->
 </head>
 <body>
-	<div id="inicial">
+	<!-- indica seccion en la que esta -->
+	<div id="inicio">
+		<!--cabezote-->
 		<header>
+			<!--imagen (clase es el nombre del objeto,src llama imagen,alt muestra el texto alternativo) -->
 			<img class="logo" src="img/logo.jpg" alt="UNAD Universidad Nacional Abierta y a Distancia" height="120">
 			<img class="excel" src="img/excel.png" alt="Excel" height="120">
+			<!--h los titulos -->
 			<h1>Objeto virtual de aprendizaje</h1>
 			<h2>para crear Tablas dinámicas en Excel</h2>
 		</header>
-		<aside>
-			<nav>
-				<ul>
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Lecturas</a></li>
-					<li><a href="#">Multimedia</a></li>
-					<li><a href="#">Actividades</a></li>
-					<li><a href="#">Autores</a></li>
-				</ul>
-			</nav>
-		</aside>
+		<!--menu-->
+		<nav>
+			<!--listas-->
+			<ul>
+				<li><a href="./">Inicio</a></li>
+				<li><a href="#">Lecturas</a></li>
+				<li><a href="#">Multimedia</a></li>
+				<li><a href="#">Actividades</a></li>
+				<li><a href="#">Autores</a></li>
+			</ul>
+		</nav>
+		<section><!--donde va el contenido de la pagina-->
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum porro laudantium consequatur optio tempora et accusamus sit, pariatur libero dolorem aspernatur. Laborum deserunt nemo officiis corrupti ad ipsa animi architecto.
+		</section>
+		<footer><!--pie de pagina-->
+			Copyright Jose David Giraldo 2016 
+		</footer>
 	</div>
 
+	<!-- Scripts -->
+	<!--modernizr sirve para que html5 funcione en versiones anteriores de navegadores -->
 	<script src="js/modernizr.js"></script>
+	<!-- prefixfree ahorra codigos css para diferentes exploradores -->
 	<script src="js/prefixfree.min.js"></script>
+	<!-- jquery permite utilizar atajos java script -->
 	<script src="js/jquery-3.1.0.min.js"></script>
 </body>
 </html>
